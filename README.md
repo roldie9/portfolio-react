@@ -28,7 +28,12 @@ npm i
         
 ## Usage
 
-This Repo is great and requires greatness.
+To initialize on node, run the following command:
+
+```
+npm start
+```
+
         
 ## License
 

@@ -2,7 +2,11 @@
   "name": "portfolio-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dry-beyond-31740.herokuapp.com/",
   "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
