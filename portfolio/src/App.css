@@ -13,12 +13,12 @@
   }
 }
 
-.App-header {
+.navigation {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: right;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -35,4 +35,116 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.title {
+  max-width:960px;
+  margin:auto;
+  clear:both;
+}
+
+.namebox {
+  background-color: #4aaaa5;
+  display: block;
+  font-size: 20px;
+  color:white;
+  padding:15px;
+  margin:auto;
+}
+
+.navbar {
+  margin-bottom: 10px;
+}
+
+
+.navclass {
+  list-style-type: none;
+  float:right;
+
+}
+
+.navclass li {
+  display:inline;
+  text-align: center;
+  padding: 15px;
+
+}
+
+.navclass li a {
+  text-align: right;
+  text-decoration: none;
+
+}
+
+.info {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 900px;
+  margin:auto;
+  padding:10px;
+  background-color: white;
+  text-align: justify;
+  list-style: none;
+}
+
+.paragraph {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 900px;
+  margin:auto;
+  padding:10px;
+  background-color: white;
+}
+
+.info img {
+  display:block;
+  height:auto;
+  width: 300px;
+  float:left;
+  padding: 10px;
+}
+
+
+.paragraph h2 {
+  color:#4aaaa5
+}
+
+.portfolio{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  max-width: 960px;
+  margin:auto;
+  background-color: white;
+}
+
+.portfolio h2{
+  color:#4aaaa5;
+
+}
+
+.contact h2{
+  color:#4aaaa5
+}
+
+.contact {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 900px;
+  margin:auto;
+  padding:10px;
+  background-color: white;
+}
+
+.btn {
+  background-color: #4aaaa5;
+}
+
+.footer{
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #666666;
+  color: white;
+  height: 2rem;
+  border-top: 8px solid #4aaaa5;
+  text-align: center;
 }
