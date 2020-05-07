@@ -8,7 +8,7 @@ class About extends Component {
       <div className="container info">
         <div className="row">
           <div className="col-lg-4 col-sm-6">
-            <img src={require("./img/portfolio_image.jpg")} />
+            <img alt="justAro" src={require("./img/portfolio_image.jpg")} />
           </div>
           <div className="links col-lg-8 col-sm-5">
             <h4 className="nameBreak">Aroldo Reyes </h4>
