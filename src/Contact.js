@@ -19,29 +19,26 @@ class Contact extends Component {
 
     render(){
       return (
-        <div className= "wrapper">
-          <div className="col-xs-12 col-sm-6 offset-sm-3">
-            <div className="card">
-            <form className="k-form-inline" onSubmit={this.handleSubmit}>  
-              <label className="k-form-field" for="Name">
-                <span>Name:</span>
-                <input type="text" value={this.state.value}  onChange={this.handleChange} className="k-textbox" placeholder="John Smith" />
-              </label>
-              <br />
-              <label className="k-form-field" for="EmailAddress">
-                <span>Email:</span>
-                <input type="email" value={this.state.value}  onChange={this.handleChange}  className="k-textbox" placeholder="name@example.com" />
-              </label>
-              <br />
-              <label className="k-form-field" for="Message">
-              <span>Message:</span>
-                <textarea value={this.state.value}  onChange={this.handleChange} id="messageBox" rows="3" />
-              </label>
-              <br />
-              <button type="submit" className="btn btn-primary">Submit</button>
-            </form>
+        <div class="container contact"> 
+        <div class="row">
+            <h2 class="col-12 border-bottom border-dark">Contact</h2>
+        </div>
+        <form class="form" onSubmit={this.handleSubmit}>
+            <div class="form-group">
+                <label for="Name">Name</label>
+                <input type="name" class="form-control" id="nameGoesHere" placeholder="John Smith" value={this.state.value}  onChange={this.handleChange} />
             </div>
-          </div>
+            <div class="form-group">
+                <label for="EmailAddress">Email Address</label>
+                <input type="email" class="form-control" id="emailAddressBox" placeholder="name@example.com" value={this.state.value}  onChange={this.handleChange} />
+            </div>
+            <div class="form-group">
+                <label for="Message">Message</label>
+                <textarea class="form-control" id="massageBox" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
         </div>
         
       )
