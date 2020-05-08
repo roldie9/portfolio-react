@@ -52,7 +52,5 @@ npm test
 ```
         
 ## Questions
-
-![user profile image](https://avatars1.githubusercontent.com/u/58443430?v=4)
         
 If you have any questions about the repo, open an issue or contact [roldie9](https://api.github.com/users/roldie9) directly at null.
